@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="728dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="177dp"
+                android:layout_height="82dp"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/logo"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="5dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                app:srcCompat="@drawable/mainimg"
+                tools:layout_editor_absoluteX="-8dp"
+                tools:layout_editor_absoluteY="22dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="139dp"
+                android:layout_height="26dp"
+                android:paddingLeft="5px"
+                android:text="About Us"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="6dp"
+                tools:layout_editor_absoluteY="318dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="381dp"
+                android:layout_height="155dp"
+                android:paddingLeft="10px"
+                android:text="Way back in 1971, when ice cream was still a commodity meant for the elite, Mr. Nemchand Shah guided by his early customers, ventured into the business of ice cream making with one motto – 'To make ice creams using fresh fruits/dry fruits, milk and sugar'. Without using any artificial ingredients or preservatives, he created ice creams manufactured in wooden contraptions called sanchas. Such was the origin of one of the most premium ice cream brands of South Mumbai"
+                app:fontFamily="sans-serif-condensed"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="347dp" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Products"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Pina berry "
+                android:textSize="18sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                app:srcCompat="@drawable/product1"
+                tools:layout_editor_absoluteX="-8dp"
+                tools:layout_editor_absoluteY="22dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Blueberry cheesecake "
+                android:textSize="18sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                app:srcCompat="@drawable/product2"
+                tools:layout_editor_absoluteX="-8dp"
+                tools:layout_editor_absoluteY="22dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Sitafal "
+                android:textSize="18sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                app:srcCompat="@drawable/product4"
+                tools:layout_editor_absoluteX="-8dp"
+                tools:layout_editor_absoluteY="22dp" />
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Orange Apricot "
+                android:textSize="18sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                app:srcCompat="@drawable/product3"
+                tools:layout_editor_absoluteX="-8dp"
+                tools:layout_editor_absoluteY="22dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Address"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="414dp"
+                android:layout_height="22dp"
+                android:paddingLeft="10px"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="Oshiwara Towers, Andheri West, Mumbai-400053."
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="627dp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Hours"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="414dp"
+                android:layout_height="22dp"
+                android:paddingLeft="10px"
+                android:text="Open today · 10am – 5pm"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="627dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Website, Phone"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="414dp"
+                android:layout_height="22dp"
+                android:paddingLeft="10px"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="Website: https://apsaraicecreams.com/"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="627dp" />
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="414dp"
+                android:layout_height="22dp"
+                android:paddingLeft="10px"
+                android:text="Phone: 022 2580 7410"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="627dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
